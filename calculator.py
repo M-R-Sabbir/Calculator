@@ -1,6 +1,7 @@
 import tkinter as tk
 
 class Calculator(tk.Tk):
+    #main class for creating the calculator app
     def __init__(self):
         super().__init__()
         self.title("Calculator")
